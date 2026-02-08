@@ -9,4 +9,4 @@ drf-yasg
 pillow
 requests
 gunicorn
-
+whitenoise
