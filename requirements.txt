@@ -3,6 +3,7 @@ djangorestframework
 psycopg2-binary
 django-cors-headers
 djangorestframework-simplejwt
+dj-database-url
 django-filter
 drf-yasg
 pillow
