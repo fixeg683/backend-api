@@ -8,4 +8,4 @@ django-filter
 drf-yasg
 pillow
 requests
-mpesa
+
