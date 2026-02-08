@@ -29,7 +29,7 @@ INSTALLED_APPS = [
     'corsheaders',
     'drf_yasg',
     'django_filters',
-    'django_mpesa',
+    
 
 
     # Local apps
@@ -120,13 +120,7 @@ SIMPLE_JWT = {
     'REFRESH_TOKEN_LIFETIME': timedelta(days=1),
 }
 
-# MPESA CONFIGURATION
-MPESA_ENVIRONMENT = 'sandbox' # or 'production'
-MPESA_CONSUMER_KEY = 'SlGcxee1Qds9dz1dZRvrTxZcAniqPc0bnyPVVtJZmA6sKekn'
-MPESA_CONSUMER_SECRET = 'uMsgXX47rgRbtAhIHRlJZtkQagpZPvQ4ggTyxFeigKuEaKAAF6EA5bVlF052fmpr'
-MPESA_SHORTCODE = '174379' # Sandbox default
-MPESA_PASSKEY = 'bfb279f9aa9bdbcf158e97dd71a467cd2e0c893059b10f78e6b72ada1ed2c919' # Sandbox default
-MPESA_INITIATOR_PASSWORD = 'YOUR_INITIATOR_PASSWORD' # For B2C (optional for now)
+
 
 # --- CORS CONFIGURATION ---
 # Allow React Frontend
