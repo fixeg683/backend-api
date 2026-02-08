@@ -8,4 +8,5 @@ django-filter
 drf-yasg
 pillow
 requests
+gunicorn
 
